@@ -4,3 +4,8 @@ body {
 h1,p {
     color: #fff;
 }
+.second {
+    color: green;
+    padding: 20px 40px;
+    background-color: #fff;
+}
