@@ -1,11 +1,27 @@
 body {
-    background-color: blue;
+    padding: 0;
+    margin: 0;
 }
-h1,p {
-    color: #fff;
+.conta:not(h2) {
+    background-color: #ffff;
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items:stretch;
 }
-.second {
-    color: green;
-    padding: 20px 40px;
-    background-color: #fff;
+.app {
+    color: rgba(205, 218, 255, 0.347)255;
+    display:flex;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    justify-content: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 5px;
 }
